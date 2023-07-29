@@ -1,0 +1,271 @@
+/* ***Início da formatação principal*** */
+
+* {
+	margin: 0;	
+	padding: 0;
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	list-style: none;
+	text-decoration: none;
+}	
+
+body {
+	background: #e6e6e6;
+}
+
+/* ***Fim da formatação principal*** */
+
+
+/* ***Início do cabeçalho*** */
+
+header {
+	background: #f7b600;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-bottom: 3px solid #ccc;
+}
+
+header h1, header nav {
+	padding: 10px;
+}
+
+h1 {
+	color: #4e4e4e;
+	font-size: 2.5em;
+}
+
+h1 span {
+	color: #fff;
+}
+
+ul {
+	display: flex;
+}
+
+li {
+	color: #fff;
+	cursor: pointer;
+	padding: 8px 12px;
+	font-size: 1.1em;
+}
+
+li:hover {
+	color: #f7b600;
+	background: #fff;
+}
+
+header .select {
+	color: #f7b600;
+	background: #fff;
+}
+
+/* Fim do cabeçalho*/
+
+
+/* ***Início do conteúdo principal da página*** */
+
+#container {
+	width: 95%; /*  ***95%   //  920px***  */
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+}
+
+
+/* ***Início do conteúdo da postagem*** */
+
+.post-content {
+	width: 72%; /*  ***72%  //  660px***  */
+	display: flex;
+	background: #fff;
+}
+
+.post {
+	width: 97%;
+	padding: 2% 2%;
+	display: flex;
+	flex-direction: column;
+}
+
+.post h2, .post span, .post p, .post a {
+	margin-left: 2%;
+}
+
+.post h2 {
+	font-size: 1.5em;
+	color: #f7b600;
+}
+
+.post span, .post a {
+	font-size: 0.7em;
+	font-style: italic;
+	line-height: 2em;
+}
+.post img {
+	width: 96%;
+	margin: 2% 2%;
+}
+
+.post p {
+	font-size: 0.9em;
+	line-height: 1.3em;
+	color: #4e4e4e;
+}
+
+.list {
+	padding: 0 5em;
+}
+.post span {
+	border-bottom: 1px solid #4e4e4e;
+	color: #4e4e4e;
+}
+
+.post a {
+	color: #f7b600;
+	cursor: pointer;
+}
+
+.post a:hover {
+	text-decoration: underline;
+}
+
+/* ***Fim do conteúdo da postagem*** */
+
+
+/* ***Início do conteúdo lateral*** */
+
+.side-content {
+	width: 26%; /*  ***26% // 240px***  */
+	margin-left: 2%;
+	display: flex;
+	flex-direction: column;
+}
+
+/* ***Início dos postes recentes*** */
+.recent-posts {
+	padding: 5% 3%;
+	margin-bottom: 10%;
+	background: #fff;
+	font-size: 1.5em;
+}
+
+.recent-posts h2 {
+	color: #fff;
+	background: #ccc;
+	padding: 5% 2%;
+}
+
+.posts-1 {
+	font-size: 0.8em;
+	color: #4e4e4e;
+	padding-top: 5%;
+	padding-bottom: 10%;
+	margin-top: 2px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #4e4e4e;
+}
+
+.posts-1 a {
+	font-size: 0.7em;
+	font-style: italic;
+	line-height: 2em;
+	color: #f7b600;
+	cursor: pointer;
+}
+
+.posts-1 a:hover {
+	text-decoration: underline;
+
+}
+
+.posts-2 {
+	font-size: 0.8em;
+	color: #4e4e4e;
+
+}
+
+.posts-2 a {
+	font-size: 0.7em;
+	font-style: italic;
+	line-height: 2em;
+	color: #f7b600;
+	cursor: pointer;
+}
+
+.posts-2 a:hover {
+	text-decoration: underline;
+
+}
+/* ***Fim dos postes recentes*** */
+
+/* ***Início dos menu lateral*** */
+.lateral-menu {
+	padding: 2% 0;
+	background: #fff;
+}
+
+.lateral-menu ul {
+	display: block;
+}
+
+.lateral-menu li {
+	color:#f7b600;
+	cursor: pointer;
+	padding: 8px 6px;
+	font-size: 1em;
+}
+
+.lateral-menu li:hover {
+	color: #fff;
+	background: #f7b600;
+}
+
+.lateral-menu .select {
+	color: #fff;
+	background: #f7b600;
+
+}
+/* ***Fim do conteúdo principal da página*** */
+
+
+/* ***Início do rodapé*** */
+
+footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 2em;
+	padding: 2em;
+	color: #4e4e4e;
+	background: #ccc;
+	border-top: 3px solid #f7b600;
+}
+
+footer h4 span {
+	font-size: 1.5em;
+}
+
+footer h4 {
+	font-size: 1em;
+}
+
+footer h5 {
+	font-size: 0.9em;
+	margin-top: 0.4em;
+	padding-left: 1em;
+}
+
+footer h5 span {
+	font-weight: bold;
+	font-style: italic;
+	color: #f7b600;
+}
+
+footer h6 {
+	margin-top: 3em;
+	font-size: 0.7em;
+}
+
+/* ***Fim do rodapé*** */
